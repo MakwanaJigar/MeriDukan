@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4efe8;
+}
+
+/* ................NAVBAR CSS .................. */
+.navbar{
+  /* background-color: rgb(129, 129, 245); */
+}
+
+.nav-item:hover{
+background-color: #da8711;
+}
+.nav-link:hover{
+  color: rgb(22, 24, 24);
+}
+
+.shop{
+ color: #fdf861;
+}
+
+
+/* .logo{
+  height: 6vh;
+  width: 8vw;
+} */
+
+/* HERO IMAGE */
+#hero{
+  height: 86vh;
+  width: 100vw;
+  margin-top: 1vh;
+}
+
+/* CARDS CSS */
+#card{
+  height: 30vh;
+  width: 15vw;
+}
+
+
+/* ...............ABOUT US PAGE CSS............... */
+
+.hero-title{
+  font-size: 3rem;
+}
+#hero1{
+  height: 100vh;
+  width: 100vw;
+  margin-top: 1vh;
+  object-fit: cover;
+}
+
+/* ABOUT PAGE FOOTER CSS */
+.fotter{
+  background-color:#2d2f32;
+  height: 20vh;
+  /* z-index: 10; */
+}
+.footerleft ul li{
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #f4efe8;
+  cursor: pointer;
+}
+.footerleft ul li:hover{
+  color: red
+}
+
+.card-footer{
+  height: 10vh;
+}
+
+
+/* ......................PRODUCT CSS START'S HERE................... */
+
+#LeftTtn{
+  margin-top: 10vh;
+}
+
+#SidebarFilter ul li{ 
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  color: rgb(190, 31, 31);
+  cursor: pointer;
+  margin: 2vh;
+}
+#SidebarFilter ul li:hover{
+  color:brown
+}
+
+.FilterSidebarHeading{
+  font-size: 3.5vh;
+  /* align-items: start;
+  justify-content: start;
+  display: flex; */
+  margin-top: 5vh;
+  font-weight: bold;
+  color: gray;
+}
+
+.form-range{
+ color: rgba(194, 6, 6, 0.651);
+}
+
+.FilterHeading{
+ text-transform: uppercase;
+ font-weight: bold;
+ color: gray;
+}
+
+#PruductID{
+  margin-top: 8vh;
+}
