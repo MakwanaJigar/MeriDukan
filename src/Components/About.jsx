@@ -1,47 +1,132 @@
 import React from 'react';
-import AboutHero4 from '../Images/AboutHero-4.avif'
+import Aboutbackground2 from '../Images/AboutBackground-2.webp'
+import AboutPageBackground3 from '../Images/AboutPageBackground-3.webp'
 
 const About = () => {
   return (
     <>
-
-<div id="carouselExampleSlidesOnly1"  class="carousel slide mt-5" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" id='hero1'>
-      <img src={AboutHero4} class="d-block w-100" alt="..."/>
-      <div className="card-img-overlay text-light d-flex justify-content-center flex-column text-center">
-    <span className="card-title text-light fw-bold">-Since 1999-</span>
-    <p className='hero-title'>We Provide Best-quality<br/> Printed Products At<br/> Affordable Prices.</p>
-    <hr className='container' style={{border:'3px solid white'}}/>
-
-<div className="main-box row justify-content-center flex-row text-center">
-
-    <div className="box1 col-md-2">
-      <h2 className='fw-bold'>WHO WE ARE</h2>
-      <p>Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.</p>
-    </div>
-
-    <div className="box2 col-md-3">
-      <h2 className='fw-bold'>HOW IT STARTED</h2>
-      <p>Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.</p>
-    </div>
-
-    <div className="box3 col-md-3">
-      <h2 className='fw-bold'>WHY CHOOSE US</h2>
-      <p>Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.</p>
-    </div>
-
-    <div className="box4 col-md-3">
-      <h2 className='fw-bold'>HOW IT WORKS</h2>
-      <p>Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.</p>
-    </div>
-
-</div>
-  </div>
+ <div className="container about">
  
+    <div className="">
+
+      <p className='since '>-Since 1999-</p>
+      <h1 className='MainAboutText'>
+      We Provide Best-quality<br/>
+      Printed Products At<br/>
+      Affordable Prices.
+      </h1>
+      <div className="btn btn-light" >EXPLORE MORE</div> 
+    </div>
+    
+    <hr />
+
+    <div className="">
+
+    <div class="container">
+  <div class="row ">
+    <div class="col-md-3 col-sm-1">
+    <h4 className='fw-bold'>
+          WHO WE ARE
+        </h4>
+        <p>
+        Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.
+        </p>
+    </div>
+    <div class="col-md-3 col-sm-1">
+    <h4 className='fw-bold'>
+          HOW IT STARTED
+        </h4>
+        <p>
+        Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.
+        </p>
+    </div>
+    <div class="col-md-3 col-sm-1">
+    <h4 className='fw-bold'>
+          WHY CHOOSE US
+        </h4>
+        <p>
+        Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.
+        </p>
+    </div>
+    <div class="col-md-3 col-sm-1">
+    <h4 className='fw-bold'>
+          HOW ITS WORKS
+        </h4>
+        <p>
+        Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.
+        </p>
     </div>
   </div>
+</div>
 
+    </div>  
+ </div>
+
+{/* TEXT AND IMAGE SECTIONS  BOTH ARE SIDE BY SIDE*/}
+ <div class="card  mb-3" style={{width:'100vw',height:'70vh'}}>
+  <div class="row g-0">
+   
+    <div class="col-md-8 container">
+      <div class="card-body ">
+      <h1 className='btn btn-danger' id='bacscket'><i  class="fa-sharp fa-solid fa-basket-shopping"  style={{cursor:'pointer',color:'white',fontSize:'3vh'}}></i></h1>
+    <h1 class="card-title fw-bold" style={{color:'gray'}}>Best Quality Printed Tshirts , Shirts And Shoes Very <br/>Affordable Price</h1>
+
+    <div className="GiftSections" style={{color:'gray',fontSize:'100%',fontWeight:'bold'}} >
+    <div className=' mx-3'>
+        <p>Personal gifts</p>
+        <p>Occasional Gifts</p>
+        <p>Corporate Gifts</p>
+      </div>
+      <div className=' mx-3'>
+      <p>Printed Tshirts</p>
+      <p>Printed Mugs</p>
+      <p>Corporate Gifts</p>
+      </div>
+      </div>
+      <h6 className='h6'>
+      Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.
+      </h6>
+      </div> 
+
+    </div>
+
+    <div class="col-md-4">
+      <img src={Aboutbackground2} class="img-fluid rounded-start" style={{height:'60vh'}} alt="..."/>
+    </div>
+  </div>
+</div>
+
+{/* GET OFFERS SECTIONS */}
+
+    <div className="box">
+      <h2 className='fw-bold text-light mx-5'>
+        GET BEST OFFERS ON ALL <br/> PRODUCTS
+      </h2>
+      <div className="btn btn-light mx-5">
+        VISIT STORE <i class="fa-regular fa-greater-than"></i>
+      </div>
+    </div>
+
+
+{/* AFTER GET OFFERS SECTION WITH BACKGROUND IMAGE */}
+<div class="card bg-dark text-white">
+  <img src={AboutPageBackground3}  class="card-img AboutPageBackground" alt="..."/>
+  <div class="card-img-overlay container" id='imagetext'>
+    <h1 class="card-title fw-bold">Tshirt Printing Is The New Cool!</h1>
+    <p class="card-text">Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
+    <p class="btn btn-outline-light">EXPLORE MORE</p>
+  </div>
+</div>
+
+{/* <div>
+    <img src={AboutPageBackground1}  className="AboutPageBackground" alt="" />
+    <div class="card-img-overlay">
+    <h1 class="card-title">Tshirt Printing Is The New Cool!</h1>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+
+</div> */}
 
     {/* FOOTER START'S HERE */}
 
@@ -92,7 +177,7 @@ const About = () => {
   <p className='d-flex align-content-center flex-wrap'>Copyright &copy; 2023 ApniDukan.Com</p>
   <p className='d-flex align-content-center flex-wrap'>Powered by ApniDukan.Com</p>
  </div>
-    </div>
+    {/* </div> */}
     </>
   );
 }

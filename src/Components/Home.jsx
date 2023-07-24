@@ -34,6 +34,52 @@ const Home = () => {
 </div>
      {/* HERO IMAGE END'S HERE */}
      <Cards />
+     
+
+      
+    {/* FOOTER START'S HERE */}
+
+    <div className="fotter d-flex justify-content-evenly  align-content-center justify-content-center mt-4 ">
+
+<div className="footerleft d-flex align-content-center flex-wrap">
+  <div className="firstli">
+    <ul>
+      <li>Home</li>
+      <li>Tshirts</li>
+      <li>Shirts</li>
+    </ul> 
+      </div>
+      <div className="secondli">    
+      <ul>
+      <li>Jeans</li>
+      <li>Contact</li>
+    </ul>
+    </div>
+</div>
+<div className="footerright d-flex align-content-center flex-wrap">
+
+  <div className="btn btn-light mx-2">
+    <i class="fa-brands fa-facebook" style={{color:'blue'}}></i>
+  </div>
+  <div className="btn btn-light mx-2">
+    <i className='fa-brands fa-twitter' style={{color:'blueviolet'}}></i>
+  </div>
+  <div className="btn btn-light mx-2">
+    <i className='fa-brands fa-youtube' style={{color:'red'}}></i>
+  </div>
+  <div className="btn btn-light mx-2">
+    <i className='fa-brands fa-google' style={{color:'yellowgreen'}}></i>
+  </div>
+  <div className="btn btn-light mx-2">
+    <i className='fa-brands fa-instagram' style={{color:'#bc1888'}}></i>
+  </div>
+
+</div>
+
+
+</div>
+
+{/* FOOTER END'S HERE */}
     </>
   );
 }

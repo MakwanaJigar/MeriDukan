@@ -2,30 +2,24 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f4efe8;
+  background-color: #ffffff;
 }
 
 /* ................NAVBAR CSS .................. */
-.navbar{
-  /* background-color: rgb(129, 129, 245); */
-}
 
 .nav-item:hover{
-background-color: #da8711;
+  border-bottom: 1px solid;
+  border-color: #f69206;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 .nav-link:hover{
-  color: rgb(22, 24, 24);
+  color: rgb(241, 9, 9);
 }
 
 .shop{
- color: #fdf861;
+ color: #fd8b61;
 }
-
-
-/* .logo{
-  height: 6vh;
-  width: 8vw;
-} */
 
 /* HERO IMAGE */
 #hero{
@@ -46,6 +40,40 @@ background-color: #da8711;
 
 /* ...............ABOUT US PAGE CSS............... */
 
+.about{
+  margin-top: 15vh;
+}
+.since{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MainAboutText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#AboutBTN{
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InfoAboutText{
+  display:flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.Box{
+  
+  width: 20vw;
+  height: 20vh;
+
+}
+
 .hero-title{
   font-size: 3rem;
 }
@@ -56,9 +84,63 @@ background-color: #da8711;
   object-fit: cover;
 }
 
+.AboutBackgroundIMG{
+  width: 100vw;
+  height: 90vh;
+}
+.since{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+}
+#bacscket{
+  height: 6vh;
+  width: 5vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#aboutimg{
+  height: 52vh;
+}
+
+.GiftSections{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10vh;
+}
+.h6{
+  margin-top: 5vh;
+  font-weight: bold;
+  color: gray;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 20vh;
+  width: 100vw;
+  background-color:#F2295B;
+}
+.AboutPageBackground{
+  width: 100vw;
+  height: 59vh;
+  overflow: hidden;
+}
+#imagetext{
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:flex-start;
+}
+
+
 /* ABOUT PAGE FOOTER CSS */
 .fotter{
-  background-color:#2d2f32;
+  background-color:#7A7A7A;
   height: 20vh;
   /* z-index: 10; */
 }
