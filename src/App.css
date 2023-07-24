@@ -117,3 +117,55 @@ background-color: #da8711;
 #PruductID{
   margin-top: 8vh;
 }
+
+
+/* ..............MEN ITEMS IN FILTER SECTION CSS..................... */
+
+#MenItems{
+  margin-top: 15vh;
+  display:flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.card{
+  max-height: 60vh;
+  overflow: scroll;
+
+}
+
+img{
+  max-height: 25vh;
+  object-fit: cover;
+}
+
+/* CONTACT COMPONET CSS */
+
+#ContactCard{
+  margin-top: 15vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ...............CONTACT COMPONENT MAP CSS ....................*/
+
+.ContactForm{
+  padding: 5vh;
+  border: 1px solid black;
+  height: 50vh;
+  width: 80vw;
+  margin-top: 10vh;
+  margin-bottom: 3vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(97, 92, 92);
+  background-color:#fbfcfc;
+  overflow: scroll;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

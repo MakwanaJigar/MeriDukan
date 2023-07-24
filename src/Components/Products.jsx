@@ -49,12 +49,9 @@ const Products = () => {
             </div>
             <div class="offcanvas-body" id="SidebarFilter">
               <ul>
-                <li>T-SHIRTS for Men</li>
-                <li>SHIRTS for Men</li>
-                <li>SHOES for Men</li>
-                <li>T-SHIRTS for Women</li>
-                <li>SHIRTS for Women</li>
-                <li>SHOES for Women</li>
+                <li><Link to="/MItems">MEN</Link></li>
+                <li><Link to="/WItems">WOMEN</Link></li>
+                <li><Link to="/MWItems">SHOES</Link></li>
               </ul>
               <div className="">
                 <h5 className="FilterSidebarHeading">FILTER BY PRICE</h5>
