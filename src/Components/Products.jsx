@@ -136,7 +136,7 @@ const Products = () => {
         <div className="row d-flex justify-content-evenly alignItems-center">
 
         <div class="card col-md-2 mx-3" id="PruductID" style={{ width: "18rem" }}>
-          <img src={TshirtA} class="card-img-top" alt="..." />
+          <img src={TshirtA} id="img" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">T-Shirt</h5>
             <p class="card-text fw-bold">
@@ -147,7 +147,7 @@ const Products = () => {
         </div>
 
         <div class="card col-md-2 mx-3" id="PruductID" style={{ width: "18rem" }}>
-          <img src={TshirtB} class="card-img-top" alt="..." />
+          <img src={TshirtB} id="img" class="card-img-top" alt="..." />
           <div class="card-body">
           <h5 class="card-title">T-Shirt</h5>
             <p class="card-text fw-bold">
@@ -158,7 +158,7 @@ const Products = () => {
         </div>
 
         <div class="card col-md-2 mx-3" id="PruductID" style={{ width: "18rem" }}>
-          <img src={TshirtC} class="card-img-top" alt="..." />
+          <img src={TshirtC} id="img" class="card-img-top" alt="..." />
           <div class="card-body">
           <h5 class="card-title">T-Shirt</h5>
             <p class="card-text fw-bold">
@@ -169,7 +169,7 @@ const Products = () => {
         </div>
 
         <div class="card col-md-2 mx-3" id="PruductID" style={{ width: "18rem" }}>
-          <img src={TshirtD} class="card-img-top" alt="..." />
+          <img src={TshirtD} id="img" class="card-img-top" alt="..." />
           <div class="card-body">
           <h5 class="card-title">T-Shirt</h5>
             <p class="card-text fw-bold">
@@ -180,7 +180,7 @@ const Products = () => {
         </div>
 
         <div class="card col-md-2 mx-3" id="PruductID" style={{ width: "18rem" }}>
-          <img src={TshirtE} class="card-img-top" alt="..." />
+          <img src={TshirtE} id="img" class="card-img-top" alt="..." />
           <div class="card-body">
           <h5 class="card-title">T-Shirt</h5>
             <p class="card-text fw-bold">
@@ -191,7 +191,7 @@ const Products = () => {
         </div>
 
         <div class="card col-md-2 mx-3" id="PruductID" style={{ width: "18rem" }}>
-          <img src={TshirtF} class="card-img-top" alt="..." />
+          <img src={TshirtF} id="img" class="card-img-top" alt="..." />
           <div class="card-body">
           <h5 class="card-title">T-Shirt</h5>
             <p class="card-text fw-bold">

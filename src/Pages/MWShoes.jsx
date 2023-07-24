@@ -145,7 +145,7 @@ const MWShoes = () => {
 
         <div className="col"  id="MenItems">
             <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes1} className="card-img-top" alt="..." />
+              <img src={Shoes1} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain White T-Shirt</h5>
                 <p className="card-text">
@@ -161,7 +161,7 @@ const MWShoes = () => {
     
        <div className="col"  id="MenItems">
             <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes2} className="card-img-top" alt="..." />
+              <img src={Shoes2} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Black T-Shirt</h5>
                 <p className="card-text">
@@ -176,7 +176,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes3} className="card-img-top" alt="..." />
+              <img src={Shoes3} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -191,7 +191,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes4} className="card-img-top" alt="..." />
+              <img src={Shoes4} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -206,7 +206,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes5} className="card-img-top" alt="..." />
+              <img src={Shoes5} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -221,7 +221,7 @@ const MWShoes = () => {
 
         <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes6} className="card-img-top" alt="..." />
+              <img src={Shoes6} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -236,7 +236,7 @@ const MWShoes = () => {
 
         <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes7} className="card-img-top" alt="..." />
+              <img src={Shoes7} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -251,7 +251,7 @@ const MWShoes = () => {
 
         <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes8} className="card-img-top" alt="..." />
+              <img src={Shoes8} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -266,7 +266,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes9} className="card-img-top" alt="..." />
+              <img src={Shoes9} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -281,7 +281,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes10} className="card-img-top" alt="..." />
+              <img src={Shoes10} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -297,7 +297,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
             <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes11} className="card-img-top" alt="..." />
+              <img src={Shoes11} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain White T-Shirt</h5>
                 <p className="card-text">
@@ -313,7 +313,7 @@ const MWShoes = () => {
     
        <div className="col"  id="MenItems">
             <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes12} className="card-img-top" alt="..." />
+              <img src={Shoes12} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Black T-Shirt</h5>
                 <p className="card-text">
@@ -328,7 +328,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes13} className="card-img-top" alt="..." />
+              <img src={Shoes13} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -343,7 +343,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes14} className="card-img-top" alt="..." />
+              <img src={Shoes14} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">
@@ -358,7 +358,7 @@ const MWShoes = () => {
 
        <div className="col"  id="MenItems">
              <div className="card" style={{width:"18rem"}}>
-              <img src={Shoes15} className="card-img-top" alt="..." />
+              <img src={Shoes15} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Plain Green T-Shirt</h5>
                 <p className="card-text">

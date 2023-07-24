@@ -20,7 +20,7 @@ const Cards = () => {
   <div className="row gy-3 m-2">
     <div className="col-md">  
     <div className="card" style={{width: "18rem"}}>
-  <img src={Shirt3} className="card-img-top" alt="..."/>
+  <img src={Shirt3} id="img" className="card-img-top" alt="..."/>
   <div className="card-img-downlay">
     <h5 className="card-title text-primary fw-bold">Shirts</h5>
     <div className="btn btn-outline-danger m-2">Shop Now</div> 
@@ -29,7 +29,7 @@ const Cards = () => {
     </div>
     <div className="col-md">
     <div className="card" style={{width: "18rem"}}>
-  <img src={Tshirt1} className="card-img-top" alt="..."/>
+  <img src={Tshirt1} id="img" className="card-img-top" alt="..."/>
   <div className="card-img-downlay">
     <h5 className="card-title text-primary fw-bold">TShirts</h5>
     <div className="btn btn-outline-danger m-2">Shop Now</div> 
@@ -38,7 +38,7 @@ const Cards = () => {
     </div>
     <div className="col-md">
     <div className="card" style={{width: "18rem"}}>
-  <img src={TshirtW} className="card-img-top" alt="..."/>
+  <img src={TshirtW} id="img" className="card-img-top" alt="..."/>
   <div className="card-img-downlay">
     <h5 className="card-title fw-bold text-primary">Women T-Shirts</h5>
 <div className="btn btn-outline-danger m-2">Shop Now</div> 

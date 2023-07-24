@@ -29,8 +29,8 @@ background-color: #da8711;
 
 /* HERO IMAGE */
 #hero{
-  height: 86vh;
-  width: 100vw;
+  height: 86vh !important;
+  width: 100vw !important;
   margin-top: 1vh;
 }
 
@@ -40,6 +40,9 @@ background-color: #da8711;
   width: 15vw;
 }
 
+/* .HomeHeroImg{
+  margin-top: 50vh;
+} */
 
 /* ...............ABOUT US PAGE CSS............... */
 
@@ -134,7 +137,7 @@ background-color: #da8711;
 
 }
 
-img{
+#img{
   max-height: 25vh;
   object-fit: cover;
 }

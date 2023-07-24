@@ -9,6 +9,7 @@ const Home = () => {
     <>
      {/* HERO IMAGE START'S HERE */}
 
+    <div className="HomeHeroImg">
      <div id="carouselExampleFade" className="carousel slide carousel-fade">
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -30,7 +31,7 @@ const Home = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-
+</div>
      {/* HERO IMAGE END'S HERE */}
      <Cards />
     </>
