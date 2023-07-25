@@ -59,7 +59,7 @@ const Home = () => {
 <div className="footerright d-flex align-content-center flex-wrap">
 
   <div className="btn btn-light mx-2">
-    <i class="fa-brands fa-facebook" style={{color:'blue'}}></i>
+    <i className="fa-brands fa-facebook" style={{color:'blue'}}></i>
   </div>
   <div className="btn btn-light mx-2">
     <i className='fa-brands fa-twitter' style={{color:'blueviolet'}}></i>

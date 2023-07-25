@@ -52,13 +52,13 @@ const Cards = () => {
 
 {/* COLABORATED BRANDS LIST AND IMAGES START'S HERE*/}
 
-<div class="container-fluid text-center mt-5">
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
-    <div class="col"><img src={Wrong} alt="" className=''/></div>
-    <div class="col"><img src={Levis} className='' alt="" /></div>
-    <div class="col"> <img src={VanHuesen} className='' alt="" /></div>
-    <div class="col"> <img src={Arrow} className='' alt="" /></div>
-    <div class="col"> <img src={TeamSpirit} className='' alt="" /></div>
+<div className="container-fluid text-center mt-5">
+  <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+    <div className="col"><img src={Wrong} alt="" className=''/></div>
+    <div className="col"><img src={Levis} className='' alt="" /></div>
+    <div className="col"> <img src={VanHuesen} className='' alt="" /></div>
+    <div className="col"> <img src={Arrow} className='' alt="" /></div>
+    <div className="col"> <img src={TeamSpirit} className='' alt="" /></div>
   </div>
 </div>
 

@@ -4,18 +4,18 @@ const Contact = () => {
   return (
     <>
       <div className="container d-flex" id="ContactCard">
-        <div class="mb-3" style={{ maxWidth: "540px" }}>
-          <div class="row g-0">
-            <div class="col-md-8">
-              <div class="card-body">
-                <h1 class="card-title">SAY HELLO</h1>
-                <p class="card-text">
+        <div className="mb-3" style={{ maxWidth: "540px" }}>
+          <div className="row g-0">
+            <div className="col-md-8">
+              <div className="card-body">
+                <h1 className="card-title">SAY HELLO</h1>
+                <p className="card-text">
                   Qui dolore ipsum quia dolor sit amet, consectetur adipisci
                   velit, sed quia non numquam eius modi Neque porro quis quam
                   est.
                 </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                <p className="card-text">
+                  <small className="text-muted">Last updated 3 mins ago</small>
                 </p>
               </div>
             </div>
@@ -26,9 +26,9 @@ const Contact = () => {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58502.41699318198!2d72.34177911025658!3d23.589945227654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c422caf789ef5%3A0x170bbc90b8be8bdc!2sMehsana%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1690180224059!5m2!1sen!2sin"
             style={{ border: "0", height: "50vh", width: "90vw" }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
@@ -37,55 +37,55 @@ const Contact = () => {
         <form action="input">
           <h3 className="fw-bold" style={{color:"gray"}}>SEND US A MESSAGE</h3>
 
-          <div class="row">
-            <div class="col-sm-6">
+          <div className="row">
+            <div className="col-sm-6">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="First name"
                 aria-label="First name"
               />
             </div>
-            <div class="col  mb-3">
+            <div className="col  mb-3">
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="Last name"
                 aria-label="Last name"
               />
             </div>
           </div>
 
-          <div class="form-floating mb-3">
+          <div className="form-floating mb-3">
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="floatingInput"
               placeholder="Your Email"
             />
-            <label for="floatingInput">Email address</label>
+            <label htmlFor="floatingInput">Email address</label>
           </div>
-          <div class="form-floating">
+          <div className="form-floating">
             <input
               type="text"
-              class="form-control mb-3"
+              className="form-control mb-3"
               id="floatingPassword"
               placeholder="Addess"
             />
-            <label for="floatingPassword">Address</label>
+            <label htmlFor="floatingPassword">Address</label>
           </div>
 
-          <div class="form-floating">
+          <div className="form-floating">
             <textarea
-              class="form-control"
+              className="form-control"
               placeholder="Leave a comment here"
               id="floatingTextarea2"
               style={{ height: "100px" }}
             ></textarea>
-            <label for="floatingTextarea2">Message</label>
+            <label htmlFor="floatingTextarea2">Message</label>
           </div>
         </form>
-        <div className="btn btn-light mt-3"><i class="fa-solid fa-message mx-2"></i>SEND MESSAGE</div>
+        <div className="btn btn-light mt-3"><i className="fa-solid fa-message mx-2"></i>SEND MESSAGE</div>
       </div>
 
       
@@ -111,7 +111,7 @@ const Contact = () => {
 <div className="footerright d-flex align-content-center flex-wrap">
 
   <div className="btn btn-light mx-2">
-    <i class="fa-brands fa-facebook" style={{color:'blue'}}></i>
+    <i className="fa-brands fa-facebook" style={{color:'blue'}}></i>
   </div>
   <div className="btn btn-light mx-2">
     <i className='fa-brands fa-twitter' style={{color:'blueviolet'}}></i>

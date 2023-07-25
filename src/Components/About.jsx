@@ -22,9 +22,9 @@ const About = () => {
 
     <div className="">
 
-    <div class="container">
-  <div class="row ">
-    <div class="col-md-3 col-sm-1">
+    <div className="container">
+  <div className="row ">
+    <div className="col-md-3 col-sm-1">
     <h4 className='fw-bold'>
           WHO WE ARE
         </h4>
@@ -32,7 +32,7 @@ const About = () => {
         Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.
         </p>
     </div>
-    <div class="col-md-3 col-sm-1">
+    <div className="col-md-3 col-sm-1">
     <h4 className='fw-bold'>
           HOW IT STARTED
         </h4>
@@ -40,7 +40,7 @@ const About = () => {
         Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.
         </p>
     </div>
-    <div class="col-md-3 col-sm-1">
+    <div className="col-md-3 col-sm-1">
     <h4 className='fw-bold'>
           WHY CHOOSE US
         </h4>
@@ -48,7 +48,7 @@ const About = () => {
         Qui dolore ipsum quia dolor sitamet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lor.
         </p>
     </div>
-    <div class="col-md-3 col-sm-1">
+    <div className="col-md-3 col-sm-1">
     <h4 className='fw-bold'>
           HOW ITS WORKS
         </h4>
@@ -63,13 +63,13 @@ const About = () => {
  </div>
 
 {/* TEXT AND IMAGE SECTIONS  BOTH ARE SIDE BY SIDE*/}
- <div class="card  mb-3" style={{width:'100vw',height:'70vh'}}>
-  <div class="row g-0">
+ <div className="card  mb-3" style={{width:'100vw',height:'70vh'}}>
+  <div className="row g-0">
    
-    <div class="col-md-8 container">
-      <div class="card-body ">
-      <h1 className='btn btn-danger' id='bacscket'><i  class="fa-sharp fa-solid fa-basket-shopping"  style={{cursor:'pointer',color:'white',fontSize:'3vh'}}></i></h1>
-    <h1 class="card-title fw-bold" style={{color:'gray'}}>Best Quality Printed Tshirts , Shirts And Shoes Very <br/>Affordable Price</h1>
+    <div className="col-md-8 container">
+      <div className="card-body ">
+      <h1 className='btn btn-danger' id='bacscket'><i  className="fa-sharp fa-solid fa-basket-shopping"  style={{cursor:'pointer',color:'white',fontSize:'3vh'}}></i></h1>
+    <h1 className="card-title fw-bold" style={{color:'gray'}}>Best Quality Printed Tshirts , Shirts And Shoes Very <br/>Affordable Price</h1>
 
     <div className="GiftSections" style={{color:'gray',fontSize:'100%',fontWeight:'bold'}} >
     <div className=' mx-3'>
@@ -90,8 +90,8 @@ const About = () => {
 
     </div>
 
-    <div class="col-md-4">
-      <img src={Aboutbackground2} class="img-fluid rounded-start" style={{height:'60vh'}} alt="..."/>
+    <div className="col-md-4">
+      <img src={Aboutbackground2} className="img-fluid rounded-start" style={{height:'60vh'}} alt="..."/>
     </div>
   </div>
 </div>
@@ -103,27 +103,27 @@ const About = () => {
         GET BEST OFFERS ON ALL <br/> PRODUCTS
       </h2>
       <div className="btn btn-light mx-5">
-        VISIT STORE <i class="fa-regular fa-greater-than"></i>
+        VISIT STORE <i className="fa-regular fa-greater-than"></i>
       </div>
     </div>
 
 
 {/* AFTER GET OFFERS SECTION WITH BACKGROUND IMAGE */}
-<div class="card bg-dark text-white">
-  <img src={AboutPageBackground3}  class="card-img AboutPageBackground" alt="..."/>
-  <div class="card-img-overlay container" id='imagetext'>
-    <h1 class="card-title fw-bold">Tshirt Printing Is The New Cool!</h1>
-    <p class="card-text">Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
-    <p class="btn btn-outline-light">EXPLORE MORE</p>
+<div className="card bg-dark text-white">
+  <img src={AboutPageBackground3}  className="card-img AboutPageBackground" alt="..."/>
+  <div className="card-img-overlay container" id='imagetext'>
+    <h1 className="card-title fw-bold">Tshirt Printing Is The New Cool!</h1>
+    <p className="card-text">Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
+    <p className="btn btn-outline-light">EXPLORE MORE</p>
   </div>
 </div>
 
 {/* <div>
     <img src={AboutPageBackground1}  className="AboutPageBackground" alt="" />
-    <div class="card-img-overlay">
-    <h1 class="card-title">Tshirt Printing Is The New Cool!</h1>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+    <div className="card-img-overlay">
+    <h1 className="card-title">Tshirt Printing Is The New Cool!</h1>
+    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p className="card-text">Last updated 3 mins ago</p>
   </div>
 
 </div> */}
@@ -149,20 +149,20 @@ const About = () => {
           </div>
           <div className="footerright d-flex align-content-center flex-wrap">
 
-            <div className="btn btn-light mx-2">
-              <i class="fa-brands fa-facebook" style={{color:'blue'}}></i>
+            <div className="btn btn-light mx-2" >
+              <i className="fa-brands fa-facebook"  style={{color:'blue'}}></i>
             </div>
             <div className="btn btn-light mx-2">
-              <i className='fa-brands fa-twitter' style={{color:'blueviolet'}}></i>
+              <i className='fa-brands fa-twitter'  style={{color:'blueviolet'}}></i>
             </div>
-            <div className="btn btn-light mx-2">
-              <i className='fa-brands fa-youtube' style={{color:'red'}}></i>
+            <div className="btn btn-light mx-2" >
+              <i className='fa-brands fa-youtube'  style={{color:'red'}}></i>
             </div>
-            <div className="btn btn-light mx-2">
-              <i className='fa-brands fa-google' style={{color:'yellowgreen'}}></i>
+            <div className="btn btn-light mx-2" >
+              <i className='fa-brands fa-google'  style={{color:'yellowgreen'}}></i>
             </div>
-            <div className="btn btn-light mx-2">
-              <i className='fa-brands fa-instagram' style={{color:'#bc1888'}}></i>
+            <div className="btn btn-light mx-2" >
+              <i className='fa-brands fa-instagram'  style={{color:'#bc1888'}}></i>
             </div>
 
           </div>

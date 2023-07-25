@@ -10,6 +10,8 @@ import About from './Components/About';
 import MenItems from './Pages/MenItems';
 import WomenItems from './Pages/WomenItems';
 import MWShoes from './Pages/MWShoes';
+import Login from './Components/Login';
+import SignUp from './Components/SignUp'
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route  path='/MItems' element={<MenItems />}/>
         <Route  path='/WItems' element={<WomenItems />}/>
         <Route  path='/MWItems' element={<MWShoes />}/>
+        <Route  path='/login' element={<Login />}/>
+        <Route  path='/signup' element={<SignUp />}/>
       </Routes>
       {/* <Footer /> */}
     </>

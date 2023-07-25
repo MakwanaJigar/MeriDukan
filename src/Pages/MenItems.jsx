@@ -19,7 +19,7 @@ const MenItems = () => {
 
         <div className="container ">
           <button
-            class="btn btn-light"
+            className="btn btn-light"
             id="LeftTtn"
             type="button"
             data-bs-toggle="offcanvas"
@@ -30,27 +30,27 @@ const MenItems = () => {
           </button>
 
           <div
-            class="offcanvas offcanvas-start"
+            className="offcanvas offcanvas-start"
             data-bs-scroll="true"
             tabindex="-1"
             id="offcanvasWithBothOptions"
             aria-labelledby="offcanvasWithBothOptionsLabel"
           >
-            <div class="offcanvas-header">
+            <div className="offcanvas-header">
               <h5
-                class="offcanvas-title FilterHeading"
+                className="offcanvas-title FilterHeading"
                 id="offcanvasWithBothOptionsLabel"
               >
                 Product categories
               </h5>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body" id="SidebarFilter">
+            <div className="offcanvas-body" id="SidebarFilter">
               <ul>
                 <li><Link to="/MItems">MEN</Link></li>
                 <li><Link to="/WItems">WOMEN</Link></li>
@@ -62,7 +62,7 @@ const MenItems = () => {
               <div className="FilterRange container">
                 <input
                   type="range"
-                  class="form-range"
+                  className="form-range"
                   min="0"
                   max="5"
                   step="0.5"
@@ -81,51 +81,51 @@ const MenItems = () => {
         {/* FILTER SIDEBAR END'S HERE TOGGLE MENU */}
         {/* DORPDOWN MENU  */}
 
-        <div class="dropdown float-end">
+        <div className="dropdown float-end">
           <button
-            class="btn dropdown-toggle"
+            className="btn dropdown-toggle"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
             Dropdown button
           </button>
-          <ul class="dropdown-menu dropdown-menu-secondary">
+          <ul className="dropdown-menu dropdown-menu-secondary">
             <li>
-              <Link class="dropdown-item active" to="/">
+              <Link className="dropdown-item active" to="/">
                 Default sorting
               </Link>
             </li>
             <li>
-              <Link class="dropdown-item" to="/">
+              <Link className="dropdown-item" to="/">
                 Sort by popularity
               </Link>
             </li>
             <li>
-              <Link class="dropdown-item" to="/">
+              <Link className="dropdown-item" to="/">
                 Sort by average rating
               </Link>
             </li>
             <li>
-              <Link class="dropdown-item" to="/">
+              <Link className="dropdown-item" to="/">
                 Sort by letest
               </Link>
             </li>
             <li>
-              <Link class="dropdown-item" to="/">
+              <Link className="dropdown-item" to="/">
                 Sort by price : Low to High
               </Link>
             </li>
             <li>
-              <Link class="dropdown-item" to="/">
+              <Link className="dropdown-item" to="/">
                 Sort by price : High to Low
               </Link>
             </li>
             <li>
-              <hr class="dropdown-divider" />
+              <hr className="dropdown-divider" />
             </li>
             <li>
-              <Link class="dropdown-item" to="/">
+              <Link className="dropdown-item" to="/">
                 Separated link
               </Link>
             </li>
@@ -137,7 +137,7 @@ const MenItems = () => {
 
       <div className="row ">
 
-        <div className="col"  id="MenItems">
+        <div className="col-sm-2"  id="MenItems">
             <div className="card" style={{width:"18rem"}}>
               <img src={MTshirt} id="img" className="card-img-top" alt="..." />
               <div className="card-body">
