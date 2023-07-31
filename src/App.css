@@ -162,13 +162,18 @@ body{
   margin-top: 10vh;
 }
 
+
+/* .........FILTER SIDEBAR CSS....... */
+
 #SidebarFilter ul li{ 
+
   text-decoration: none;
   list-style: none;
   font-weight: bold;
-  color: rgb(190, 31, 31);
+  color: #F2295B;
   cursor: pointer;
   margin: 2vh;
+  text-transform:uppercase;
 }
 #SidebarFilter ul li:hover{
   color:brown
@@ -176,9 +181,6 @@ body{
 
 .FilterSidebarHeading{
   font-size: 3.5vh;
-  /* align-items: start;
-  justify-content: start;
-  display: flex; */
   margin-top: 5vh;
   font-weight: bold;
   color: gray;
@@ -295,4 +297,32 @@ height:50px;
 
 .sideline:after {
     margin: 0 0 0 20px;
+}
+
+
+
+/* ..........CARD HOVER EFFECT ........... */
+
+
+.card{
+  cursor: pointer;
+}
+.card:hover{
+z-index: 7;
+transition: 0.7s;
+box-shadow: 10px 10px 10px 0px rgb(0, 0, 0);
+}
+
+
+#DATA{
+  margin-top: 10vh;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    font-weight: bold;
+    color: #F2295B;
 }

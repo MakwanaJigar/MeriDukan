@@ -7,29 +7,29 @@ const Login = () => {
   return (
     <>
 
-<div class="container" id='login'>
-<div class="row m-5 no-gutters shadow-lg">
-<div class="col-md-6 d-none d-md-block">
-<img src={LoginSideIMG1} class="img-fluid" style={{minHeight:"100%"}} />
+<div className="container" id='login'>
+<div className="row m-5 no-gutters shadow-lg">
+<div className="col-md-6 d-none d-md-block">
+<img src={LoginSideIMG1} className="img-fluid" style={{minHeight:"100%"}} />
 </div>
-<div class="col-md-6 bg-white p-5">
+<div className="col-md-6 bg-white p-5">
   <img src={Logo2} className='mb-5' style={{width:'30vw'}} alt="" />
 
-<div class="form-style">
+<div className="form-style">
 <form>
-  <div class="form-group pb-3">    
-    <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>   
+  <div className="form-group pb-3">    
+    <input type="email" placeholder="Email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>   
   </div>
-  <div class="form-group pb-3">   
-    <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1"/>
+  <div className="form-group pb-3">   
+    <input type="password" placeholder="Password" className="form-control" id="exampleInputPassword1"/>
   </div>
-   <div class="pb-2">
-  <button type="submit" class="btn btn-primary w-100 font-weight-bold mt-2">Login</button>
+   <div className="pb-2">
+  <button type="submit" className="btn btn-primary w-100 font-weight-bold mt-2">Login</button>
    </div>
 </form>
 
   <div>
-  <Link type="submit" class="btn btn-dark w-100 font-weight-bold mt-2" to='/signup'>Create New</Link>
+  <Link type="submit" className="btn btn-dark w-100 font-weight-bold mt-2" to='/signup'>Create New</Link>
      </div>
  
   
@@ -46,15 +46,15 @@ const Login = () => {
       
       <img src="" alt="" />
       <form className='container form'>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+          <div className="mb-3">
+            <label for="exampleInputEmail1" className="form-label">Email address</label>
+            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1"/>
+          <div className="mb-3">
+            <label for="exampleInputPassword1" className="form-label">Password</label>
+            <input type="password" className="form-control" id="exampleInputPassword1"/>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-primary">Submit</button>
 </form>
 
     </div> */}

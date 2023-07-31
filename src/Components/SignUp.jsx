@@ -8,38 +8,38 @@ const SignUp = () => {
     <>
 
     
-<div class="container" id='login'>
-<div class="row m-5 no-gutters shadow-lg">
-<div class="col-md-6 d-none d-md-block">
-<img src={LoginSideIMG1} class="img-fluid" style={{minHeight:"100%"}} />
+<div className="container" id='login'>
+<div className="row m-5 no-gutters shadow-lg">
+<div className="col-md-6 d-none d-md-block">
+<img src={LoginSideIMG1} className="img-fluid" style={{minHeight:"100%"}} />
 </div>
-<div class="col-md-6 bg-white p-5">
+<div className="col-md-6 bg-white p-5">
   <img src={Logo2} className='mb-5' style={{width:'30vw'}} alt="" />
 
-<div class="form-style">
+<div className="form-style">
 <form>
-<div class="form-group pb-3">    
-    <input type="text" placeholder="First Name" class="form-control" id="exampleInputFirstName" aria-describedby="firstnameHelp"/>   
+<div className="form-group pb-3">    
+    <input type="text" placeholder="First Name" className="form-control" id="exampleInputFirstName" aria-describedby="firstnameHelp"/>   
   </div>
-  <div class="form-group pb-3">    
-    <input type="text" placeholder="Last Name" class="form-control" id="exampleInputLastName" aria-describedby="lastnameHelp"/>   
+  <div className="form-group pb-3">    
+    <input type="text" placeholder="Last Name" className="form-control" id="exampleInputLastName" aria-describedby="lastnameHelp"/>   
   </div>
-  <div class="form-group pb-3">    
-    <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>   
+  <div className="form-group pb-3">    
+    <input type="email" placeholder="Email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>   
   </div>
-  <div class="form-group pb-3">   
-    <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1"/>
+  <div className="form-group pb-3">   
+    <input type="password" placeholder="Password" className="form-control" id="exampleInputPassword1"/>
   </div>
-  <div class="form-group pb-3">   
-    <input type="password" placeholder="Confirm Password" class="form-control" id="exampleInputConfirmPassword2"/>
+  <div className="form-group pb-3">   
+    <input type="password" placeholder="Confirm Password" className="form-control" id="exampleInputConfirmPassword2"/>
   </div>
-   <div class="pb-2">
-  <button type="submit" class="btn btn-primary w-100 font-weight-bold mt-2">Create Account</button>
+   <div className="pb-2">
+  <button type="submit" className="btn btn-primary w-100 font-weight-bold mt-2">Create Account</button>
    </div>
 </form>
 
   <div>
-  <Link type="submit" class="btn btn-dark w-100 font-weight-bold mt-2" to='/login'>SignUp</Link>
+  <Link type="submit" className="btn btn-dark w-100 font-weight-bold mt-2" to='/login'>SignUp</Link>
      </div>
  
   

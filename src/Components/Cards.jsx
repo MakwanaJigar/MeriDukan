@@ -18,8 +18,8 @@ const Cards = () => {
 
 <div className="container text-center w-75">
   <div className="row gy-3 m-2">
-    <div className="col-md">  
-    <div className="card" style={{width: "18rem"}}>
+    <div className="col-md" >  
+    <div className="card"  style={{width: "18rem"}}>
   <img src={Shirt3} id="img" className="card-img-top" alt="..."/>
   <div className="card-img-downlay">
     <h5 className="card-title text-primary fw-bold">Shirts</h5>
